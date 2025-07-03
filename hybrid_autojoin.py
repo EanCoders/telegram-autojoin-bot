@@ -184,9 +184,9 @@ def setup_user_credentials():
     print("5. Salin API ID dan API Hash")
     print("=" * 50)
     
-    api_id = input("\n15885787: ").strip()
-    api_hash = input("78e30841cd2bcbdd0c894b0da5b787dd: ").strip()
-    phone = input("+6285945213322: ").strip()
+    api_id = input("\nMasukkan API ID: ").strip()
+    api_hash = input("Masukkan API Hash: ").strip()
+    phone = input("Masukkan nomor telepon (dengan kode negara, contoh: +6281234567890): ").strip()
     
     if not api_id or not api_hash or not phone:
         print("❌ Semua field harus diisi!")
